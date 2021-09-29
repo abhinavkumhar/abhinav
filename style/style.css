@@ -1,4 +1,4 @@
-/* CSS Resat */
+/* CSS Resat Start */
 
 * {
     padding: 0;
@@ -7,7 +7,33 @@
 }
 
 
+/* CSS Resat End */
+
+
+/* Body Start */
+
+body {
+    background-color: var(--baseShade1);
+}
+
+
+/* Body End */
+
+
 /* Theme of Website Start */
+
+:root {
+    /* baseShades */
+    --baseShade1: #1A1A1A;
+    --baseShade2: #ffff00;
+    --baseShade3: #BFBFBF;
+    --baseShade4: #868686;
+    /* textSizes */
+    --headSize1: ;
+    --headSize2: ;
+    --textSize1: ;
+    --textSize2: ;
+}
 
 
 /* Theme of Website End */
