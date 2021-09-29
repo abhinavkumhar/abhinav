@@ -1,0 +1,20 @@
+@import url(./style.css);
+#js {
+    margin-top: 40px;
+}
+
+.textShade {
+    color: var(--textShade);
+}
+
+.hero-text {
+    margin-top: 23px;
+}
+
+
+/* @media (max-width: 991px) {
+    #about-img img {
+        justify-content: center;
+        align-items: center;
+    }
+} */
