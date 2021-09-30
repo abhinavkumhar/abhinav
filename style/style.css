@@ -14,6 +14,7 @@
 
 body {
     background-color: var(--baseShade1);
+    overflow: hidden;
 }
 
 
@@ -26,13 +27,17 @@ body {
     /* baseShades */
     --baseShade1: #1A1A1A;
     --baseShade2: #ffff00;
-    --baseShade3: #BFBFBF;
-    --baseShade4: #868686;
+    --baseShade3: #ffffff;
+    --baseShade4: ;
+    ;
     /* textSizes */
     --headSize1: ;
     --headSize2: ;
     --textSize1: ;
     --textSize2: ;
+    /* fontFamilies */
+    --headFont: 'Gemunu Libre', sans-serif;
+    --textFont: 'Gluten', cursive;
 }
 
 
