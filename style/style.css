@@ -17,6 +17,14 @@ body {
     overflow: hidden;
 }
 
+h1 {
+    color: #ffffff;
+    text-align: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
 
 /* Body End */
 
