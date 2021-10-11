@@ -34,15 +34,15 @@ h1 {
 :root {
     /* baseShades */
     --baseShade1: #1A1A1A;
-    --baseShade2: #ffff00;
+    --baseShade2: #f5d300;
     --baseShade3: #ffffff;
     --baseShade4: ;
     ;
     /* textSizes */
     --headSize1: ;
     --headSize2: ;
-    --textSize1: ;
-    --textSize2: ;
+    --textSize1: 1.25rem;
+    --textSize2: 1rem;
     /* fontFamilies */
     --headFont: 'Gemunu Libre', sans-serif;
     --textFont: 'Gluten', cursive;
@@ -54,11 +54,31 @@ h1 {
 
 /* Utlity Classes Start */
 
+a:hover {
+    cursor: pointer;
+}
+
+.dark {
+    color: var(--baseShade1);
+}
+
+.text-1 {
+    font-size: var(--textSize1);
+}
+
+.text-2 {
+    font-size: var(--textSize2);
+}
+
 
 /* Utlity Classes End */
 
 
 /* Navigation Bar Start */
+
+header {
+    background-color: var(--baseShade2);
+}
 
 
 /* Navigation Bar End */
